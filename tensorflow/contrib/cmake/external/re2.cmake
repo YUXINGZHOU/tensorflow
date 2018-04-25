@@ -15,10 +15,10 @@
 include (ExternalProject)
 
 set(re2_INCLUDE_DIR ${CMAKE_CURRENT_BINARY_DIR}/re2/install/include)
-set(re2_URL https://github.com/google/re2)
+set(re2_URL https://github.com/YUXINGZHOU/re2.git)
 set(re2_BUILD ${CMAKE_CURRENT_BINARY_DIR}/re2/src/re2)
 set(re2_INSTALL ${CMAKE_CURRENT_BINARY_DIR}/re2/install)
-set(re2_TAG e7efc48)
+set(re2_TAG fc85d66)
 
 if(WIN32)
   if(${CMAKE_GENERATOR} MATCHES "Visual Studio.*")
